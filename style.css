@@ -6,10 +6,13 @@
 }
 body{
     margin: 0;
+    background-color: #F5F8FF;
 }
 :root{
     --primary-color: #4E47FF;
+    --primary-text: #252432;
 }
+/* shared styles */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -31,6 +34,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    cursor: pointer;
 }
 .container{
     max-width: 1172px;
@@ -38,10 +42,14 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.m-0{
+    margin: 0;
+}
 
 /* header and nav */
 header{
     background-image: url('assets/hero-bg.png');
+    margin-bottom: 116px;
 }
 header nav{
     display: flex;
@@ -53,7 +61,6 @@ nav h1{
     font-size: 34px;
     font-weight: 800;
     color: var(--primary-color);
-    margin: 0;
 }
 
 /* banner section */
@@ -66,10 +73,36 @@ nav h1{
     gap: 37px;
 }
 .banner h2{
-    margin: 0;
     font-size: 65px;
     font-weight: bold;
     max-width: 900px;
     text-align: center;
-    color: #252432;
+    color: var(--primary-text);
+}
+
+/* main section */
+main > section{
+    margin-bottom: 116px;
+}
+
+/* section : action */
+section.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--primary-text);
+    margin: 0;
+}
+.action p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin: 23px auto;
+    max-width: 517px;
+}
+.action img{
+    border-radius: 48px;
 }
