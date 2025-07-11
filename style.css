@@ -29,12 +29,17 @@ body{
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.primary-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
 }
 .container{
     max-width: 1172px;
@@ -46,7 +51,7 @@ body{
     margin: 0;
 }
 
-/* header and nav */
+/* header */
 header{
     background-image: url('assets/hero-bg.png');
     margin-bottom: 116px;
@@ -57,7 +62,7 @@ header nav{
     align-items: center;
     padding: 50px 0;
 }
-nav h1{
+header nav h1{
     font-size: 34px;
     font-weight: 800;
     color: var(--primary-color);
@@ -162,10 +167,46 @@ section.contact{
     border-radius: 10px;
     width: 100%;
     resize: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .contact-form input[type="submit"]{
     color: white;
     margin-top: 20px;
     border: none;
     font-size: 1rem;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 100px 16px;
+    background-color: white;
+}
+footer h1{
+    color: var(--primary-color);
+    font-size: 6.25rem;
+    font-weight: 900;
+}
+footer p{
+    color: #8987A1;
+    font-weight: 400;
+    max-width: 531px;
+    margin: 30px auto 20px;
+    line-height: 150%;
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-nav ul li{
+    display: inline-block;
+}
+.footer-nav ul li a{
+    color: #8987A1;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.footer-nav a:hover{
+    text-decoration: 1px solid underline;
 }

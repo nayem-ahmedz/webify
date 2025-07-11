@@ -1,16 +1,16 @@
 # Assignment 1
-* Complete Web Development by Programming Hero | Batch 12
+Complete Web Development by Programming Hero | Batch 12
 
 ## Project Name : Webify
-- proving best online solution to our customers based on decent imagination
+providing best online solution to our customers based on decent imagination
 
-### from figma to real website using
+### From figma to real website using
 - HTML
 - CSS
 
 ## Project Timeline
 - created on 10 July 2025
-- completed on --
-- last updated on --
+- completed on 11 July 2025
+- last updated on 11 July 2025, BDT 5:50 PM
 
 Feel free to contact for any query!
