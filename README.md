@@ -11,6 +11,6 @@ providing best online solution to our customers based on decent imagination
 ## Project Timeline
 - created on 10 July 2025
 - completed on 11 July 2025
-- last updated on 11 July 2025, BDT 5:50 PM
+- last updated on 11 July 2025, BDT 8:40 PM
 
 Feel free to contact for any query!
