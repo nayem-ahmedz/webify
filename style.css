@@ -134,3 +134,38 @@ article.users-data > h3{
     margin: 0;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* contact section */
+section.contact{
+    display: flex;
+    align-items: center;
+}
+.contact h2{
+    font-size: 95px;
+    font-weight: bold;
+}
+.contact-form{
+    max-width: 500px;
+}
+.contact-form label{
+    display: block;
+    font-size: 18px;
+    font-weight: medium;
+    margin: 19px auto 10px;
+}
+.contact-form input, .contact-form textarea{
+    padding: 20px 32px;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #D6DDED;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+}
+.contact-form input[type="submit"]{
+    color: white;
+    margin-top: 20px;
+    border: none;
+    font-size: 1rem;
+}
